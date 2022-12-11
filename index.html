@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
   <head>
     <meta charset="UTF-8">
@@ -9,7 +9,179 @@
   </head>
 
   <body>
-
+    <header class="main-header">
+      <!--скрытый заголовок H1 Седона-->
+      <a class="page-header-logo" href="index.html">
+        <img class="header-logo" src="img/logo.png" width="138" height="64" alt="Логотип сайта Седона.">
+      </a>
+      <nav class="navigation-list">
+        <ul class="navigation-item">
+          <li class="navigation-link current">Главная</li>
+          <li class="navigation-link">О Cедоне</li>
+          <li class="navigation-link">Гостиницы</li>
+        </ul>
+      </nav>
+      <nav class="user-navigation-list">
+        <ul class="user-navigation-item">
+          <li class="user-navigation-link">
+            <!--форма поиска на сайте-->
+            <form action=""></form>
+          </li>
+          <li class="user-navigation-link">
+            <!--векторная картинка избранное с цифрой 12-->
+          </li>
+          <li class="user-navigation-link">
+            <button class="want-here">Хочу сюда</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="hero-block">
+        <img class="main-banner" src="img/index/hero-bunner.png" width="1200" height="485"
+          alt="Пейзаж с горами курорта Седона.">
+      </section>
+      <section class="features">
+        <h2 class="main-feature">
+          Седона — небольшой городок в Аризоне,
+          заслуживающий большего!
+        </h2>
+        <p class="main-feature-paragraph">
+          Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+        </p>
+        <ul class="features-card-list">
+          <li class="features-card-item">
+            <div class="feature-card-link">
+              <h3 class="feature-card-link-title">
+                Настоящий городок
+              </h3>
+              <p class="feature-card-link-text">
+                Седона — не аттракцион для туристов, там течёт своя жизнь
+              </p>
+            </div>
+          </li>
+          <li class="features-card-item">
+            <img class="feature-card-link cityscape" src="img/index/cityscape.jpg" width="800" height="384"
+              alt="Городской пейзаж.">
+          </li>
+          <li class="features-card-item">
+            <div class="feature-card-link">
+              <h3 class="feature-card-link-title">
+                Небольшая площадь
+              </h3>
+              <p class="feature-card-link-text">
+                Все достопримечательности находятся очень близко
+              </p>
+            </div>
+          </li>
+          <li class="features-card-item">
+            <div class="feature-card-link">
+              <h3 class="feature-card-link-title">
+                Красивая дорога
+              </h3>
+              <p class="feature-card-link-text">
+                Ехать в Седону из Лас-Вегаса совсем не скучно!
+              </p>
+            </div>
+          </li>
+          <li class="features-card-item">
+            <div class="feature-card-link">
+              <h3 class="feature-card-link-title">
+                Мало туристов
+              </h3>
+              <p class="feature-card-link-text">
+                Большинство едет в Гранд Каньон и толпится там
+              </p>
+            </div>
+          </li>
+          <li class="features-card-item">
+            <img class="feature-card-link devils-bridge-сanyon" src="img/index/devils-bridge-сanyon.jpg" width="800"
+              height="384" alt="Каньон мост дьявола.">
+          </li>
+          <li class="features-card-item">
+            <div class="feature-card-link">
+              <h3 class="feature-card-link-title">
+                Там есть мост дьявола
+              </h3>
+              <p class="feature-card-link-text">
+                Да, по нему можно пройти! Если вы осмелитесь, разумеется
+              </p>
+            </div>
+          </li>
+          <li class="features-card-item">
+            <div class="feature-card-link housing">
+              <!--Векторное изображения-->
+              <h3 class="feature-card-link-title">
+                Жильё
+              </h3>
+              <p class="feature-card-link-text">
+                Рекомендуем пожить в настоящем мотеле, всё как в кино!
+              </p>
+            </div>
+          </li>
+          <li class="features-card-item">
+            <div class="feature-card-link eat">
+              <!--Векторное изображения-->
+              <h3 class="feature-card-link-title">
+                Еда
+              </h3>
+              <p class="feature-card-link-trext">
+                Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
+              </p>
+            </div>
+          </li>
+          <li class="features-card-item">
+            <div class="feature-card-link souvenirs">
+              <!--Векторное изображения-->
+              <h3 class="feature-card-link-title">
+                Сувениры
+              </h3>
+              <p class="feature-card-link-text">
+                Не только китайского, но и настоящего местного производства!
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="search">
+        <h2 class="heading-search">
+          Заинтересовались?
+        </h2>
+        <p class="text-search">
+          Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+        </p>
+        <a class="search-button" href="catalog.html">
+          Поиск гостиниц в Седоне
+        </a>
+      </section>
+      <section class="subscription">
+        <h2 class="heading-subscription">
+          Подпишитесь на рассылку
+        </h2>
+        <p class="text-subscription">
+          Только полезная информация и никакого спама, честное бойскаутское!
+        </p>
+        <!--форма обратной связи для оформления подписки-->
+      </section>
+    </main>
+    <footer class="main-footer">
+      <ul class="social-navigation-list">
+        <li class="social-navigation-item">
+          <img class="social-navigation-link" src="#" alt="Ссылка на странице вконтакте.">
+        </li>
+        <li class="social-navigation-item">
+          <img class="social-navigation-link" src="#" alt="Ссылка в чат телеграм.">
+        </li>
+        <li class="social-navigation-item">
+          <img class="social-navigation-link" src="#" alt="Ссылка на канал ютуб.">
+        </li>
+      </ul>
+      <a class="telephon" href="#">+7 (812) 812-12-12</a>
+      <a class="html-academy" href="https://htmlacademy.ru/">
+        <img class="html-academy-logo" src="img/html-academy-logo.png" width="115" height="33"
+          alt="Логотип фштиэмэль академии.">
+      </a>
+    </footer>
   </body>
 
 </html>
