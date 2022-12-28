@@ -10,18 +10,34 @@
   </head>
 
   <body>
+
+    <!-- шапка главной страницы-->
     <header class="main-header">
-      <!--скрытый заголовок H1 Седона-->
+
+      <!-- скрытый заголовок -->
+      <h1 class="visually-hidden">Sedona</h1>
+
+      <!-- логотип -->
       <a class="page-header-logo" href="index.html">
         <img class="header-logo" src="img/logo.png" width="138" height="64" alt="Логотип сайта Седона.">
       </a>
+
+      <!-- навигация -->
       <nav class="navigation-list">
         <ul class="navigation-item">
-          <li class="navigation-link navigation-link-current">Главная</li>
-          <li class="navigation-link">О Cедоне</li>
-          <li class="navigation-link">Гостиницы</li>
+          <li class="navigation-link navigation-link-current">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="navigation-link">
+            <a href="#">О Cедоне</a>
+          </li>
+          <li class="navigation-link">
+            <a href="catalog.html">Гостиницы</a>
+          </li>
         </ul>
       </nav>
+
+      <!-- пользовательское меню -->
       <nav class="user-navigation-list">
         <ul class="user-navigation-item">
           <li class="user-navigation-link">
@@ -29,21 +45,30 @@
             <form action=""></form>
           </li>
           <li class="user-navigation-link">
-            <!--векторная картинка избранное с цифрой 12-->
+            <a href="#" class="user-navigation-favorite">
+              <p class="visually-hidden">избранное</p>
+            </a>
           </li>
           <li class="user-navigation-link">
             <button class="want-here">Хочу сюда</button>
           </li>
         </ul>
       </nav>
+
     </header>
+
+    <!-- основной контент главной страницы -->
     <main class="main-container">
+
+      <!-- баннер -->
       <section class="hero-block">
         <img class="main-banner" src="img/index/hero-bunner.jpg" width="1200" height="485"
           alt="Пейзаж с горами курорта Седона.">
         <img class="main-banner-text" src="img/index/hero-welcome.svg" width="458" height="352"
           alt="Надпись на главном изображении - Добро пожаловать на курорт Седона.">
       </section>
+
+      <!-- преимущества -->
       <section class="features">
         <h2 class="main-feature">
           Седона — небольшой городок в Аризоне,
@@ -54,7 +79,7 @@
         </p>
         <ul class="features-card-list">
           <li class="features-card-item">
-            <div class="feature-card-link">
+            <div class="feature-card-link feature-card-link-blue">
               <h3 class="feature-card-link-title">
                 Настоящий городок
               </h3>
@@ -68,7 +93,7 @@
               alt="Городской пейзаж.">
           </li>
           <li class="features-card-item">
-            <div class="feature-card-link">
+            <div class="feature-card-link feature-card-link-indigo">
               <h3 class="feature-card-link-title">
                 Небольшая площадь
               </h3>
@@ -78,7 +103,7 @@
             </div>
           </li>
           <li class="features-card-item">
-            <div class="feature-card-link">
+            <div class="feature-card-link feature-card-link-heavenly">
               <h3 class="feature-card-link-title">
                 Красивая дорога
               </h3>
@@ -88,7 +113,7 @@
             </div>
           </li>
           <li class="features-card-item">
-            <div class="feature-card-link">
+            <div class="feature-card-link feature-card-link-indigo">
               <h3 class="feature-card-link-title">
                 Мало туристов
               </h3>
@@ -102,7 +127,7 @@
               height="384" alt="Каньон мост дьявола.">
           </li>
           <li class="features-card-item">
-            <div class="feature-card-link">
+            <div class="feature-card-link feature-card-link-blue">
               <h3 class="feature-card-link-title">
                 Там есть мост дьявола
               </h3>
@@ -112,7 +137,7 @@
             </div>
           </li>
           <li class="features-card-item">
-            <div class="feature-card-link housing">
+            <div class="feature-card-link feature-card-link-indigo housing">
               <!--Векторное изображения-->
               <h3 class="feature-card-link-title">
                 Жильё
@@ -128,13 +153,13 @@
               <h3 class="feature-card-link-title">
                 Еда
               </h3>
-              <p class="feature-card-link-trext">
+              <p class="feature-card-link-text">
                 Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
               </p>
             </div>
           </li>
           <li class="features-card-item">
-            <div class="feature-card-link souvenirs">
+            <div class="feature-card-link feature-card-link-indigo souvenirs">
               <!--Векторное изображения-->
               <h3 class="feature-card-link-title">
                 Сувениры
@@ -146,6 +171,8 @@
           </li>
         </ul>
       </section>
+
+      <!-- поиск -->
       <section class="search">
         <h2 class="heading-search">
           Заинтересовались?
@@ -154,9 +181,11 @@
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
         <a class="search-button" href="catalog.html">
-          Поиск гостиниц в Седоне
+          Поиск гостиницы в Седоне
         </a>
       </section>
+
+      <!-- подписка -->
       <section class="subscription">
         <h2 class="heading-subscription">
           Подпишитесь на рассылку
@@ -166,25 +195,42 @@
         </p>
         <form action=""></form>
       </section>
+
     </main>
+
+    <!-- подвал главной страницы -->
     <footer class="main-footer">
+
+      <!-- соцсети -->
       <ul class="social-navigation-list">
         <li class="social-navigation-item">
-          <img class="social-navigation-link" src="#" alt="Ссылка на странице вконтакте.">
+          <a href="https://vk.com/htmlacademy">
+            <img class="social-navigation-link" src="#" alt="Ссылка на странице вконтакте.">
+          </a>
         </li>
         <li class="social-navigation-item">
-          <img class="social-navigation-link" src="#" alt="Ссылка в чат телеграм.">
+          <a href="https://t.me/htmlacademy">
+            <img class="social-navigation-link" src="#" alt="Ссылка в чат телеграм.">
+          </a>
         </li>
         <li class="social-navigation-item">
-          <img class="social-navigation-link" src="#" alt="Ссылка на канал ютуб.">
+          <a href=" https://www.youtube.com/user/htmlacademyru">
+            <img class="social-navigation-link" src="#" alt="Ссылка на канал ютуб.">
+          </a>
         </li>
       </ul>
+
+      <!-- обратная связь -->
       <a class="telephon" href="#">+7 (812) 812-12-12</a>
+
+      <!-- логотип академии -->
       <a class="html-academy" href="https://htmlacademy.ru/">
         <img class="html-academy-logo" src="img/html-academy-logo.png" width="115" height="33"
           alt="Логотип аштиэмэль академии.">
       </a>
+
     </footer>
+
   </body>
 
 </html>
